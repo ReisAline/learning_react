@@ -1,0 +1,40 @@
+body{
+  font: 14px "Century Gothic", Futura, sans-serif;;
+  margin : 20px;
+}
+
+.visor{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: right;
+  font-size: 25px;
+  margin: 0px;
+  margin-right:-1px;
+  background-color: darkgray; 
+}
+
+.botao {
+  background: rgb(236, 214, 193);
+  border: 1px solid rgb(216, 212, 212);
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.bordas:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.calcula{
+  display: flex;
+  flex-direction: row;
+}
